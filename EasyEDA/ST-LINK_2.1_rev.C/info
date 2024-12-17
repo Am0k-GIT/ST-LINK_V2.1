@@ -1,0 +1,639 @@
+{
+  "uuid": "335fdabaa49b6e08df702fd80c564bed",
+  "path": "Offline/ST-LINK_2.1_rev.C",
+  "name": "ST-LINK_2.1_rev.C",
+  "content": "",
+  "created_at": "2024-02-04 07:20:40",
+  "updated_at": "2024-02-26 20:45:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b6944a00a416fd1deee620272521e2c4",
+      "title": "Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "22e802472d7b4ef1ba813ff2ca3a595d": 1,
+        "951958ecc6124c48be744aa4bec873ca": 27,
+        "ada017fa327b4c98a4cf078a3897b896": 2,
+        "7ae5bfa366e845d2a0ae32d467d49929": 1,
+        "aad50653aa9845c28a2dcfe00911ed56": 5,
+        "1e120734f4c2f156ed5f4f19b6e3833f": 1,
+        "76b820add7d94fcebc57a5fdbe455ab8": 1,
+        "004169f673c14904924c735e8dff4053": 1,
+        "dd1457f2130b442583cd006177511a0e": 1,
+        "eb1a855a9edd486787aaa99b8f934767": 1,
+        "0d374fd456d442708c1811ddb4976b66": 2,
+        "ff3307db7adf4334a2e61e7f3722259f": 1,
+        "6166f4be03ad480ea6278e3e7faf847e": 2,
+        "469d315426ed4a0fb0079c8a5771a12f": 1,
+        "09d0c7345a0f445e8763041c7847dd87": 1,
+        "47682fd8cfbb4d769d2c545661df88d4": 1,
+        "0a076dec8adf48689b8235ce9bb31815": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          6,
+          "C0603",
+          "C1,C2,C5,C8,C9,C10",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C576805",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC0603JRNPO0BN270",
+            "link": "https://lcsc.com/eda_search?q=C576805&%26type=1&ref=editor",
+            "spiceSymbolName": "CC0603JRNPO0BN270",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "0a076dec8adf48689b8235ce9bb31815"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C0805",
+          "C3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "thib.dls",
+            "spiceSymbolName": "Capacitor 1206",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "thib.dls",
+            "spiceSymbolName": "Capacitor 1206",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "20pF",
+          2,
+          "C0603",
+          "C6,C7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C576805",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC0603JRNPO0BN270",
+            "link": "https://lcsc.com/eda_search?q=C576805&%26type=1&ref=editor",
+            "spiceSymbolName": "CC0603JRNPO0BN270",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "0a076dec8adf48689b8235ce9bb31815"
+          }
+        ],
+        [
+          "68uF",
+          1,
+          "CASE-B_3528",
+          "C11",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C444793",
+            "Manufacturer": "AVX",
+            "Manufacturer Part": "TPSB686K010R0600",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "TPSB686K010R0600",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "004169f673c14904924c735e8dff4053"
+          }
+        ],
+        [
+          "MBR0520 DIODE",
+          2,
+          "SOD-123_L2.8-W1.8-LS3.7-FD",
+          "D1,D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "MBR0520",
+            "Manufacturer": "CJ",
+            "image": "//image.lceda.cn/szlcsc/C77335.jpg",
+            "Supplier Part": "C77335",
+            "LCSC Assembly": "Yes",
+            "SMT Type": "Extend",
+            "spiceSymbolName": "MBR0520 DIODE",
+            "puuid": "c52379bcde4d4d2fb926e8bbd5467783",
+            "uuid": "0d374fd456d442708c1811ddb4976b66"
+          }
+        ],
+        [
+          "1206-0.5A",
+          1,
+          "F1206",
+          "F1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900013658",
+            "Manufacturer": "null",
+            "Manufacturer Part": "1206-0.5A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900013658&%26type=1&ref=editor",
+            "spiceSymbolName": "1206-0.5A",
+            "puuid": "c74a5ddd0add4500b745ecf0d59ab737",
+            "uuid": "09d0c7345a0f445e8763041c7847dd87"
+          }
+        ],
+        [
+          "OUTPUT",
+          2,
+          "HEADER-1X5-SMD-MALE-2.54-90",
+          "J1,J2",
+          {
+            "description": "SMD Black Male Header 1*6P-2.54",
+            "Manufacturer Part": "P125-1106A0BZYB1",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "maik_wago",
+            "spiceSymbolName": "HEADER-1X5-SMD-MALE-2.54-90",
+            "puuid": "86df8ecb0e324623b79648bf525087b1",
+            "uuid": "ada017fa327b4c98a4cf078a3897b896"
+          }
+        ],
+        [
+          "1uH",
+          1,
+          "L0805",
+          "L1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2908142",
+            "Manufacturer": "null",
+            "Manufacturer Part": "L0805",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "L0805",
+            "puuid": "bcc8ca20dcc84ccfa139b07aa569efaf",
+            "uuid": "469d315426ed4a0fb0079c8a5771a12f"
+          }
+        ],
+        [
+          "PWR",
+          1,
+          "LED0805-RD",
+          "LED1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012722",
+            "Manufacturer": "null",
+            "Manufacturer Part": "led0805",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED0805",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "LINK1",
+          1,
+          "LED0805-RD",
+          "LED2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012722",
+            "Manufacturer": "null",
+            "Manufacturer Part": "led0805",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED0805",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "LINK2",
+          1,
+          "LED0805-RD",
+          "LED3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012722",
+            "Manufacturer": "null",
+            "Manufacturer Part": "led0805",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED0805",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "TX",
+          1,
+          "LED0805-RD",
+          "LED4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012722",
+            "Manufacturer": "null",
+            "Manufacturer Part": "led0805",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED0805",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "RX",
+          1,
+          "LED0805-RD",
+          "LED5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012722",
+            "Manufacturer": "null",
+            "Manufacturer Part": "led0805",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED0805",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "1X4-1.27",
+          1,
+          "PH-1X4-1.27",
+          "PROG",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Contributor": "Misal",
+            "spiceSymbolName": "1X4-1.27",
+            "Manufacturer Part": "",
+            "puuid": "8cb74493ec0c4315996a05497717d139",
+            "uuid": "47682fd8cfbb4d769d2c545661df88d4"
+          }
+        ],
+        [
+          "S9013",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+          "Q1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2898668",
+            "Manufacturer": "YFW(佑风微)",
+            "Manufacturer Part": "S9013",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S9013_C2898668",
+            "puuid": "9b4893765bb745f7babcd2d8424da59c",
+            "uuid": "eb1a855a9edd486787aaa99b8f934767"
+          }
+        ],
+        [
+          "IRLML0040TRPbF",
+          1,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C332101",
+            "Manufacturer": "PUOLOP",
+            "Manufacturer Part": "AO3400-SOT23",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AO3400-SOT23",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "ff3307db7adf4334a2e61e7f3722259f"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0805",
+          "R1,R2",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "20Ω",
+          6,
+          "R0805",
+          "R3,R4,R13,R14,R15,R16",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "1.5kΩ",
+          1,
+          "R0805",
+          "R5",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "R0805",
+          "R6,R10,R11",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "36kΩ",
+          1,
+          "R0805",
+          "R7",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "100Ω",
+          4,
+          "R0805",
+          "R8,R12,R19,R20",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R0805",
+          "R9,R26,R27",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "10Ω",
+          2,
+          "R0805",
+          "R17,R18",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "4.7kΩ",
+          2,
+          "R0805",
+          "R21,R22",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "100kΩ",
+          3,
+          "R0805",
+          "R23,R24,R25",
+          {
+            "Power": "1/4W",
+            "Value": "200Ω",
+            "Tolerance": "±1%",
+            "Supplier Part": "C18002",
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "1206W4F2000T5E",
+            "spiceSymbolName": "200Ω",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "USBLC6-2SC6",
+          1,
+          "SOT-23-6",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "USBLC6-2SC6",
+            "Manufacturer": "STMicroelectronics",
+            "image": "//image.lceda.cn/szlcsc/C7519.jpg",
+            "Contributor": "Harsimran Sindhar",
+            "Supplier Part": "C7519",
+            "spiceSymbolName": "USBLC6-2SC6",
+            "puuid": "c9505f60178b4b09a38c43ffc0b7a6ef",
+            "uuid": "dd1457f2130b442583cd006177511a0e"
+          }
+        ],
+        [
+          "LM1117-3.3",
+          1,
+          "LM1117-3.3",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "cpu76239",
+            "spiceSymbolName": "LM1117-3.3",
+            "puuid": "785669a7f8164471b9d28d6e2c1dd8a8",
+            "uuid": "22e802472d7b4ef1ba813ff2ca3a595d"
+          }
+        ],
+        [
+          "STM32F103CBT6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "timeStamp": "1458840421",
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F103CBT6",
+            "Supplier Part": "C8304",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F103CBT6",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "1e120734f4c2f156ed5f4f19b6e3833f"
+          }
+        ],
+        [
+          "USB-TYPE-C-16PIN",
+          1,
+          "TYPE-C-SMD_HX-TYPE-C-16PIN",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2927039",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "USB-TYPE-C-019",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20211217/AE540A2D77B84677A3A029B8D0DDD2E1.pdf",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "USB-TYPE-C-019",
+            "puuid": "460b13026424406ead4a85eca94ae3ec",
+            "uuid": "7ae5bfa366e845d2a0ae32d467d49929"
+          }
+        ],
+        [
+          "8M",
+          1,
+          "X2-SMD-5.0X3.2X1.3MM",
+          "XTAL1",
+          {
+            "description": "SMD Crystal 12Mhz-20pF-20ppm-40R;",
+            "Manufacturer Part": "5032/2P",
+            "spiceSymbolName": "5032/2P",
+            "puuid": "0eb7fc457a7b4946ad66d7b5c45da53a",
+            "uuid": "76b820add7d94fcebc57a5fdbe455ab8"
+          }
+        ]
+      ],
+      "updateTime": 1708969431,
+      "createTime": 1707020440,
+      "histories": [],
+      "created_at": "2024-02-04 07:20:40",
+      "updated_at": "2024-02-26 20:43:51"
+    },
+    {
+      "uuid": "5336d58f184d3267c9bf4d55a79f5759",
+      "title": "PCB_ST-LINK_2.1",
+      "filename": "PCB_ST-LINK_2.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1708969517,
+      "createTime": 1687780874,
+      "histories": [],
+      "created_at": "2023-06-26 15:01:14",
+      "updated_at": "2024-02-26 20:45:17",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 27,
+        "c34a1ddee614437a896e168400a20cea": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 8,
+        "86df8ecb0e324623b79648bf525087b1": 2,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "c52379bcde4d4d2fb926e8bbd5467783": 2,
+        "9b4893765bb745f7babcd2d8424da59c": 1,
+        "2a819e02584e46aea9f04b619de61270": 1,
+        "785669a7f8164471b9d28d6e2c1dd8a8": 1,
+        "c74a5ddd0add4500b745ecf0d59ab737": 1,
+        "bcc8ca20dcc84ccfa139b07aa569efaf": 1,
+        "8cb74493ec0c4315996a05497717d139": 1,
+        "460b13026424406ead4a85eca94ae3ec": 1,
+        "a267edbe7c3c4a16b85fd51e936458d0": 5,
+        "c9505f60178b4b09a38c43ffc0b7a6ef": 1,
+        "4a13c433861640209b7106f419770da9": 1,
+        "0eb7fc457a7b4946ad66d7b5c45da53a": 1
+      }
+    }
+  ],
+  "sort": [],
+  "title": "ST-LINK_2.1_rev.C",
+  "foldername": "ST-LINK_2.1_rev.C",
+  "schfilename": "ST-LINK_2.1_rev.C.json",
+  "schfilemtime": 1708969431920
+}

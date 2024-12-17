@@ -1,0 +1,601 @@
+{
+  "uuid": "00d4ef2a089ba66db10b8ff5befe6543",
+  "path": "Offline/ST-LINK_2.1_rev.B",
+  "name": "ST-LINK_2.1_rev.B",
+  "content": "",
+  "created_at": "2023-06-22 12:29:41",
+  "updated_at": "2024-02-04 07:21:00",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "00c0893dbb87ae56a0c45ab2d1f43b8c",
+      "title": "Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6166f4be03ad480ea6278e3e7faf847e": 12,
+        "951958ecc6124c48be744aa4bec873ca": 27,
+        "ff3307db7adf4334a2e61e7f3722259f": 1,
+        "0d374fd456d442708c1811ddb4976b66": 2,
+        "eb1a855a9edd486787aaa99b8f934767": 1,
+        "2b503c6ef30f449d8588f5be3d787d90": 1,
+        "dd1457f2130b442583cd006177511a0e": 1,
+        "5c36637d40a24247a2341c2622a09e61": 1,
+        "4950fd39faa3445896f8f09b8cd139ac": 1,
+        "004169f673c14904924c735e8dff4053": 1,
+        "9900276970c045968b41a8d9db21b679": 1,
+        "76b820add7d94fcebc57a5fdbe455ab8": 1,
+        "1e120734f4c2f156ed5f4f19b6e3833f": 1,
+        "aad50653aa9845c28a2dcfe00911ed56": 5,
+        "7ae5bfa366e845d2a0ae32d467d49929": 1,
+        "ada017fa327b4c98a4cf078a3897b896": 2,
+        "b02594a290dc48538aba69beb2a5de41": 1,
+        "22e802472d7b4ef1ba813ff2ca3a595d": 1,
+        "de23c62f83e748b5bfc9a67fa0d3929a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          8,
+          "C0805",
+          "C1,C2,C5,C8,C9,C10,C11,C12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C0805",
+          "C3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "20pF",
+          2,
+          "C0805",
+          "C6,C7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "6166f4be03ad480ea6278e3e7faf847e"
+          }
+        ],
+        [
+          "68uF",
+          1,
+          "CASE-B_3528",
+          "C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C444793",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TPSB686K010R0600",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "004169f673c14904924c735e8dff4053"
+          }
+        ],
+        [
+          "MBR0520 DIODE",
+          2,
+          "SOD-123_L2.8-W1.8-LS3.7-FD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "MBR0520",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Supplier Part": "C77335",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "c52379bcde4d4d2fb926e8bbd5467783",
+            "uuid": "0d374fd456d442708c1811ddb4976b66"
+          }
+        ],
+        [
+          "SMBJ5.0CA",
+          1,
+          "SMB_L4.4-W3.6-LS5.3-BI",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2917866",
+            "BOM_Manufacturer": "ZHIDE(志得)",
+            "BOM_Manufacturer Part": "SMBJ3.3CA",
+            "puuid": "096a3291e65749b6ad3754d2172fe14a",
+            "uuid": "b02594a290dc48538aba69beb2a5de41"
+          }
+        ],
+        [
+          "0.5",
+          1,
+          "SMD RESETABLE FUSE 3216",
+          "F1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c7da0cfb7b124ec2a19ca97e58b33dcd",
+            "uuid": "4950fd39faa3445896f8f09b8cd139ac"
+          }
+        ],
+        [
+          "PROG1",
+          1,
+          "HEADER-1X5-SMD-MALE-2.54-90",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "P125-1106A0BZYB1",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "86df8ecb0e324623b79648bf525087b1",
+            "uuid": "ada017fa327b4c98a4cf078a3897b896"
+          }
+        ],
+        [
+          "PROG2",
+          1,
+          "HEADER-1X5-SMD-MALE-2.54-90",
+          "J2",
+          {
+            "BOM_Manufacturer Part": "P125-1106A0BZYB1",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "86df8ecb0e324623b79648bf525087b1",
+            "uuid": "ada017fa327b4c98a4cf078a3897b896"
+          }
+        ],
+        [
+          "1uH",
+          1,
+          "INDUCTOR-1206",
+          "L1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "aaf77beb597e486a8e390eb4b133c943",
+            "uuid": "5c36637d40a24247a2341c2622a09e61"
+          }
+        ],
+        [
+          "PWR",
+          1,
+          "LED0805-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "LINK1",
+          1,
+          "LED0805-RD",
+          "LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "LINK2",
+          1,
+          "LED0805-RD",
+          "LED3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "TX",
+          1,
+          "LED0805-RD",
+          "LED4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "RX",
+          1,
+          "LED0805-RD",
+          "LED5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "H1",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "PROG",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2718488",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*4P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8f78b31c15d54ef69278fa188fb193ea",
+            "uuid": "9900276970c045968b41a8d9db21b679"
+          }
+        ],
+        [
+          "S9013",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2898668",
+            "BOM_Manufacturer": "YFW(佑风微)",
+            "BOM_Manufacturer Part": "S9013",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9b4893765bb745f7babcd2d8424da59c",
+            "uuid": "eb1a855a9edd486787aaa99b8f934767"
+          }
+        ],
+        [
+          "IRLML0040TRPbF",
+          1,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C332101",
+            "BOM_Manufacturer": "PUOLOP",
+            "BOM_Manufacturer Part": "AO3400-SOT23",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "ff3307db7adf4334a2e61e7f3722259f"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0805",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "20Ω",
+          6,
+          "R0805",
+          "R3,R4,R13,R14,R15,R16",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "1.5kΩ",
+          1,
+          "R0805",
+          "R5",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "R0805",
+          "R6,R10,R11",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "36kΩ",
+          1,
+          "R0805",
+          "R7",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "100Ω",
+          4,
+          "R0805",
+          "R8,R12,R17,R18",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R0805",
+          "R9,R22,R23",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "4.7kΩ",
+          2,
+          "R0805",
+          "R19,R20",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "100kΩ",
+          3,
+          "R0805",
+          "R21,R24,R25",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "10Ω",
+          2,
+          "R0805",
+          "R26,R27",
+          {
+            "BOM_Supplier Part": "C18002",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "1206W4F2000T5E",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "951958ecc6124c48be744aa4bec873ca"
+          }
+        ],
+        [
+          "PWRSELECT",
+          1,
+          "PAD-JUMPER-3-NO_YES_SILK",
+          "SJ1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "80b7357cec2b473e83b5de3316eb1ff4",
+            "uuid": "de23c62f83e748b5bfc9a67fa0d3929a"
+          }
+        ],
+        [
+          "USBLC6-2SC6",
+          1,
+          "SOT-23-6",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "USBLC6-2SC6",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Supplier Part": "C7519",
+            "puuid": "c9505f60178b4b09a38c43ffc0b7a6ef",
+            "uuid": "dd1457f2130b442583cd006177511a0e"
+          }
+        ],
+        [
+          "LM1117-3.3",
+          1,
+          "LM1117-3.3",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "785669a7f8164471b9d28d6e2c1dd8a8",
+            "uuid": "22e802472d7b4ef1ba813ff2ca3a595d"
+          }
+        ],
+        [
+          "STM32F103CBT6",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "STM32F103CBT6",
+            "BOM_Supplier Part": "C8304",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "1e120734f4c2f156ed5f4f19b6e3833f"
+          }
+        ],
+        [
+          "USB-TYPE-B",
+          1,
+          "USB-B-TH_USB-B01",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C498173",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "USB-B01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5ef6ce35421c42cf9abdd56b75881a56",
+            "uuid": "2b503c6ef30f449d8588f5be3d787d90"
+          }
+        ],
+        [
+          "USB-TYPE-C-16PIN",
+          1,
+          "TYPE-C-SMD_HX-TYPE-C-16PIN",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2927039",
+            "BOM_Manufacturer": "DEALON(德艺隆)",
+            "BOM_Manufacturer Part": "USB-TYPE-C-019",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "460b13026424406ead4a85eca94ae3ec",
+            "uuid": "7ae5bfa366e845d2a0ae32d467d49929"
+          }
+        ],
+        [
+          "8M",
+          1,
+          "X2-SMD-5.0X3.2X1.3MM",
+          "XTAL1",
+          {
+            "BOM_Manufacturer Part": "5032/2P",
+            "puuid": "0eb7fc457a7b4946ad66d7b5c45da53a",
+            "uuid": "76b820add7d94fcebc57a5fdbe455ab8"
+          }
+        ]
+      ],
+      "updateTime": 1687776860,
+      "createTime": 1687426181,
+      "histories": [],
+      "created_at": "2023-06-22 12:29:41",
+      "updated_at": "2023-06-26 13:54:20"
+    },
+    {
+      "uuid": "34ce6f86c61aff047dcb6f084322fa13",
+      "puuid": "00d4ef2a089ba66db10b8ff5befe6543",
+      "title": "PCB_ST-LINK_2.1",
+      "filename": "PCB_ST-LINK_2.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "80b7357cec2b473e83b5de3316eb1ff4": 1,
+        "785669a7f8164471b9d28d6e2c1dd8a8": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 12,
+        "c34a1ddee614437a896e168400a20cea": 1,
+        "c7da0cfb7b124ec2a19ca97e58b33dcd": 1,
+        "aaf77beb597e486a8e390eb4b133c943": 1,
+        "c52379bcde4d4d2fb926e8bbd5467783": 2,
+        "86df8ecb0e324623b79648bf525087b1": 2,
+        "b60f399a7a7e41848b2be1eb49c79141": 27,
+        "9b4893765bb745f7babcd2d8424da59c": 1,
+        "2a819e02584e46aea9f04b619de61270": 1,
+        "096a3291e65749b6ad3754d2172fe14a": 1,
+        "a267edbe7c3c4a16b85fd51e936458d0": 5,
+        "8f78b31c15d54ef69278fa188fb193ea": 1,
+        "c9505f60178b4b09a38c43ffc0b7a6ef": 1,
+        "4a13c433861640209b7106f419770da9": 1,
+        "5ef6ce35421c42cf9abdd56b75881a56": 1,
+        "460b13026424406ead4a85eca94ae3ec": 1,
+        "0eb7fc457a7b4946ad66d7b5c45da53a": 1
+      },
+      "BOM": [],
+      "updateTime": 1687780874,
+      "createTime": 1687450103,
+      "histories": [],
+      "created_at": "2023-06-22 19:08:23",
+      "updated_at": "2023-06-26 15:01:14"
+    }
+  ],
+  "sort": [],
+  "title": "ST-LINK_2.1_rev.B",
+  "foldername": "ST-LINK_2.1_rev.B",
+  "schfilename": "ST-LINK_2.1_rev.B.json",
+  "schfilemtime": 1696175149613
+}
